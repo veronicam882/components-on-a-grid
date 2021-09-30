@@ -24,7 +24,7 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "banner banner"
-    "col1 col2"
+    "col1 col2";
   gap: 1rem;
 }
 
@@ -32,7 +32,7 @@ body {
   width: 14rem;
   grid-column: 1;
   grid-row: 1;
-  aligh-self: end;
+  align-self: end;
   z-index: 1;
   margin-bottom: 1rem;
   margin-left: 1rem;
@@ -60,7 +60,7 @@ nav li {
 }
 
 nav a {
-  color: ##fff;
+  color: #fff;
   font-family: "Patua One", sans-serif;
   font-size: 2rem;
 }
